@@ -1,0 +1,27 @@
+.wrapper {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(58, 58, 58);
+  background-color: rgba(199, 108, 244, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  & .directing {
+    font-weight: 800;
+    align-self: flex-start;
+    margin-left: 35px;
+  }
+  & .tasksContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  & .skills {
+    align-self: flex-start;
+    font-weight: 800;
+  }
+}
