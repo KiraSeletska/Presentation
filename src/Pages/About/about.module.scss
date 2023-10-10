@@ -33,7 +33,6 @@
       }
       &::before {
         content: "";
-
         position: absolute;
         top: -5px;
         left: -5px;
@@ -77,6 +76,20 @@
   .wrapper {
     & .preface {
       grid-template-columns: 1fr;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    & .preface {
+      width: 90%;
+      & section {
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        & p {
+          margin: 0px 0 10px;
+        }
+      }
     }
   }
 }

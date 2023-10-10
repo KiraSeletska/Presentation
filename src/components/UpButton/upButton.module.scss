@@ -1,22 +1,31 @@
 .visible {
   position: fixed;
-  width: 4vw;
+  width: auto;
   height: auto;
   bottom: 220px;
   right: 20px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 17px;
   & button {
     font-size: 35px;
-    width: 100%;
-    padding: 10px;
     border: none;
-    border-radius: 17px;
     background-color: transparent;
     color: rgb(0, 0, 0, 0.3);
     &:hover {
       color: rgb(106, 49, 137);
+    }
+  }
+}
+.unvisible {
+  display: none;
+}
+@media (max-width: 600px) {
+  .visible {
+    bottom: 30px;
+    right: 40px;
+    & button {
+      font-size: 25px;
+      &:hover {
+        color: rgb(106, 49, 137);
+      }
     }
   }
 }

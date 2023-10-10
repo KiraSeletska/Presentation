@@ -166,11 +166,12 @@ p {
 @media (max-width: 600px) {
   h2 {
     font-size: 20px;
+    margin-bottom: 10px;
   }
   h3 {
     font-size: 16px;
     color: rgb(102, 26, 90);
-    margin: 15px 0;
+    margin-bottom: 10px;
   }
   
   p {
