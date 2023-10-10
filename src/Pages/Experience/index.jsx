@@ -2,6 +2,9 @@ import styles from "./experience.module.scss";
 import { experienceData } from "../../data";
 import { AdditionalInformation } from "../../components/AdditionalInformation";
 import { ITExperience } from "../../components/ITExperience";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
+
 export const Experience = () => {
   return (
     <div className={styles.wrapper}>
@@ -35,7 +38,7 @@ export const Experience = () => {
             </section>
           </div>
         ))}
-      <a href="">More information about previous jobs...</a>
+     <p className={styles.linkToCV}><FontAwesomeIcon icon={faEye} /> <a href="">More information about previous... </a></p>
       <AdditionalInformation />
     </div>
   );

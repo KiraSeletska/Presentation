@@ -2,12 +2,18 @@
   display: flex;
   flex-direction: column;
   gap: 35px;
-  padding: 35px;
+
   & div:nth-child(4) {
     align-self: end;
   }
-  & a {
-    align-self: end;
+  & .linkToCV {
+    color: rgb(134, 26, 201);
+    display: flex;
+    justify-content: flex-end;
+    & a {
+      color: rgb(134, 26, 201, 0.5);
+      margin-left: 10px;
+    }
   }
   & .experience {
     padding: 35px;
@@ -42,8 +48,14 @@
 }
 @media (max-width: 600px) {
   .wrapper {
+    padding: 15px;
+    gap: 15px;
+    & h2 {
+    }
     & .experience {
+      gap: 10px;
       width: 100%;
+      padding: 25px;
     }
   }
 }
