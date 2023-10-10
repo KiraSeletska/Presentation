@@ -4,14 +4,9 @@ import { ITexperienceData } from "../../data";
 export const ITExperience = () => {
   return (
     <div className={styles.wrapper}>
-      <h2>IT experience</h2>
-      <section className={styles.positions}>
-        <h3>{ITexperienceData.positions}</h3>
-      </section>
+      <h3>{ITexperienceData.positions}</h3>
+      <p className={styles.period}>{ITexperienceData.period} </p>
 
-      <section className={styles.period}>
-        <p>{ITexperienceData.period} </p>
-      </section>
       <section className={styles.directing}>
         {ITexperienceData.directings.map((directing, ind) => (
           <p key={directing + ind}>{directing}</p>
