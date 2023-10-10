@@ -28,18 +28,17 @@
         height: 40px;
       }
     }
-    & center{
+    & center {
       display: flex;
       justify-content: center;
       align-items: center;
-      & p{
+      & p {
         display: flex;
         justify-content: center;
         align-items: center;
       }
     }
     & .contacts {
-   
       & ul {
         display: flex;
         justify-content: center;
@@ -53,6 +52,31 @@
             }
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .footerContainer {
+    top: 0;
+
+    height: 30px;
+    & .wrapper {
+      & .icons {
+        width: 100%;
+        & img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      & center {
+        display: none;
+        & p {
+          display: none;
+        }
+      }
+      & .contacts {
+        display: none;
       }
     }
   }

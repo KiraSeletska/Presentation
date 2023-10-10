@@ -1,6 +1,7 @@
 .menuContainer {
   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2); 
   position:fixed; 
+
   height: 50px;
   width: 100%;
   z-index: 111;
@@ -19,11 +20,44 @@
       align-items: center;
       padding-right: 50px;
       gap: 30px;
-      & li {
+      & .li {
         font-size: 15px;
         cursor: pointer;
+      
         &:hover {
           color: rgb(162, 70, 228);
+        }
+      }
+      & .mobileLi{
+        color: rgb(72, 14, 71);
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .menuContainer {
+    bottom: 30px;
+    & .wrapper {
+
+
+      & ul {
+padding: 0 10px;
+width: 100%;
+display: flex;
+justify-content:space-around;
+align-items: center;
+
+        & .li {
+     display: none;
+        
+          &:hover {
+      
+          }
+        }
+        & .mobileLi{
+          display: block;
+    
         }
       }
     }

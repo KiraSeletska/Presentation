@@ -17,32 +17,39 @@
       }
       &::before {
         content: "";
-        width: 250px;
-        height: 230px;
         position: absolute;
-        top: 0px;
+        top: -25px;
         left: -25px;
+        bottom: 50px;
+        right: -25px;
         background: 	
         linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
         linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
     
-        transform: translate(0, -20px);
+       // transform: translate(0, -20px);
         z-index: -1;
       }
     }
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .container {
     width: 100%;
   & .wrapper {
-   flex-direction: row;
-
-   align-items: center;
-   justify-content: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
    gap: 35px;
    & .photoWrapper {
-    width: 40%;
+    & img {
+      width: 100px;
+    }
+      &::before {
+        top: -10px;
+        left: -10px;
+        bottom: 20px;
+        right: -10px;
+      
+    }
    }
   }
 }}
