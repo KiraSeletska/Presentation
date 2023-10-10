@@ -9,11 +9,13 @@ function App() {
   return (
     <div className={styles.App}>
       <Header />
-     
-      <div className={styles.outlet}><Outlet/> </div>
-      <UpButton />
-   <Footer/>
-  
+   
+      <div className={styles.outlet}>
+        <Outlet />{" "}
+        <UpButton />
+      </div>
+   
+      <Footer />
     </div>
   );
 }

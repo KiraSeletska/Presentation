@@ -59,11 +59,16 @@
 @media (max-width: 600px) {
   .footerContainer {
     top: 0;
-
+    right: 0;
+width: 70%;
     height: 30px;
     & .wrapper {
+      width: 100%;
+      gap: 0;
       & .icons {
         width: 100%;
+        justify-content: space-around;
+        gap: 0;
         & img {
           width: 20px;
           height: 20px;

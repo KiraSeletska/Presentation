@@ -5,10 +5,11 @@ import styles from "./upButton.module.scss";
 
 export const UpButton = () => {
   const [isVisible, setIsVisible] = useState(false);
-
+console.log(isVisible)
   const rootElement = document.getElementById("root");
 
   const scrollToTop = () => {
+
     rootElement.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -16,6 +17,7 @@ export const UpButton = () => {
   };
 
   const handleScroll = () => {
+
     rootElement.scrollTop > 300 ? setIsVisible(true) : setIsVisible(false);
   };
   useEffect(() => {
@@ -29,7 +31,7 @@ export const UpButton = () => {
   }, []);
 
   return (
-    <div className={isVisible ? styles.visible : ""}>
+    <div className={isVisible ? styles.visible : styles.unvisible}>
       <button onClick={scrollToTop}>
         <FontAwesomeIcon icon={faAnglesUp} />
       </button>
