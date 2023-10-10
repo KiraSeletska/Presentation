@@ -24,7 +24,7 @@ export const Footer = () => {
           <img src={mobXImg} alt="MobX" />
           <img src={sassImg} alt="Sass" />
         </div>
-        <div className={styles.center}><p>for something</p></div>
+        <div className={styles.center}><p></p></div>
         <div className={styles.contacts}>
           <ul>
             <li>
