@@ -5,8 +5,7 @@
   border-radius: 50%;
   position: relative;
   animation: bounce 2s infinite;
-
-  
+  float: left;
   & .eyes {
     display: flex;
     justify-content: space-around;
@@ -36,27 +35,28 @@
     position: absolute;
     top: 12px;
     left: 8px;
-   // animation: smile 2s infinite;
-  }
-}
-/*
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
 
-@keyframes smile {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(45deg);
   }
 }
-*/
+@media (max-width: 600px) {
+  .smiley {
+    width: 30px;
+    height: 30px;
+    & .eyes {
+      display: flex;
+      justify-content: space-around;
+      & .eyeLeft,
+      .eyeRight {
+        width: 30%;
+        height: 10px;
+      &::after{
+        transform: translate(3px,3px);
+      }
+      }
+    }
+    & .mouth {
+      top: 6px;
+      left: 6px;
+    }
+  }
+}

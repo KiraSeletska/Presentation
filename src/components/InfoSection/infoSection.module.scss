@@ -39,14 +39,17 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 35px;
+   padding: 0;
    & .photoWrapper {
+    margin: 0;
+    width: 150px;
     & img {
-      width: 100px;
+      width: 150px;
     }
       &::before {
         top: -10px;
         left: -10px;
-        bottom: 20px;
+        bottom: 40px;
         right: -10px;
       
     }
