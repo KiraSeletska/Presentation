@@ -9,7 +9,6 @@ function App() {
   return (
     <div className={styles.App}>
       <Header />
-   
       <div className={styles.outlet}>
         <Outlet />{" "}
         <UpButton />

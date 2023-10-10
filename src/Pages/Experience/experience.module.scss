@@ -40,3 +40,10 @@
     }
   }
 }
+@media (max-width: 600px) {
+  .wrapper {
+    & .experience {
+      width: 100%;
+    }
+  }
+}
