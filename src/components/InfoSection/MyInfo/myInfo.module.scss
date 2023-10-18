@@ -1,7 +1,17 @@
 .infoWrapper {
   width: 100%;
   & h1 {
-    margin-bottom: 25px;
+
+  }
+  & .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    & img {
+      width: 25px;
+      height: 25px;
+    }
   }
   & .basicInfoWrapper {
     display: grid;
@@ -23,18 +33,26 @@
     & h1 {
       margin-bottom: 15px;
     }
+    & .icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      & img {
+        width: 15px;
+        height: 15px;
+      }
+    }
     & .basicInfoWrapper {
-display: flex;
-flex-direction: column;
+      display: flex;
+      flex-direction: column;
 
       & .typeInfo {
-
         display: none;
       }
       & p {
         color: #252525;
         font-size: 14px;
-
       }
     }
   }
