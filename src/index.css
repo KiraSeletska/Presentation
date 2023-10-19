@@ -150,11 +150,12 @@ h1{
   
 }
 h2 {
-  font-size: 33px;
+  font-size: 40px;
+  color: rgb(224, 133, 95);
 
 }
 h3 {
-  font-size: 25px;
+  font-size: 33px;
   color: rgb(102, 26, 90);
 
 }

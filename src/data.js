@@ -89,3 +89,30 @@ attention: 'I chose IT',
     content: "I like Javascript, and its breadth of use, I like working with interfaces and quickly seeing the result of my work",
   },
 ];
+
+export const aboutLife =[
+  {
+    title: 'A look outside of work',
+    content: 'I have always strived to create and preserve joyful moments. A delicious dinner, magical music, a beautiful view - all these little things make our lives better. I consider myself a creative person, I love to create and improve and these traits have also influenced my personal life.'
+  },
+  {
+    title: 'Travelings',
+  content: "What can I say about them? Who doesn't love travel? To get new emotions, you don’t have to travel thousands of kilometers away (for example, I haven’t explored all the surroundings of my new house yet, although I’ve been living here for almost two years). New places, experiences, sometimes breathtaking. If you ask me how I like to relax, then my answer is here. On the bank of a mountain river, in an old small town, 3000 m above sea level, in the center of a metropolis, in a colorful forest, in a castle.... I have good news: this is an inexhaustible source of inspiration, and I every month (sometimes even more often) I go to some new places. This is the best vacation in the world."
+
+  },
+  {
+    title: 'Photo',
+  content: "Well, everything is simple here... This is a window into the world of pleasant memories. I can probably also call a photo the most motivating picture in the world, because there you can find inspiration for everything. Here are my photos, if you're interested)"
+
+  },
+  {
+    title: "Music",
+    content: 'I graduated from music school, performed in a group and solo. The piano still inspires me, even though I listen to it on Spotify. There is probably no bad music, everyone puts a piece of themselves into it. I often find myself in the classics (Vivaldi) and something heavier))'
+  },
+  {
+    title: 'Cooking',
+  content: "I learned to cook late, for some reason all these stoves and knives scared me a little. But people need to eat, and I'm a human. A person who loves delicious and beautiful food. At some point, cooking became my main hobby, and soon it began to bring me money: my recipes and photos were noticed by a magazine, so my works appeared on the pages and penetrated the lives of other people. I hope they liked it."
+
+  },
+
+]

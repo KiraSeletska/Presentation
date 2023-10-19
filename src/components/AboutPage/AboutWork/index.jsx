@@ -16,28 +16,45 @@ export const AboutWork = () => {
   return (
     <div className="wrapper">
       <div className="respV">
-   
-      {aboutWork.map((section, index) => (
-  <div className={`section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
-    <h2>{section.title}</h2>
-    <p>{section.content}</p>
-  </div>
-))}
-
-     
+        {aboutWork.map((section, index) => (
+          <div
+            className={`section-${section.title
+              .replace(/\s/g, "-")
+              .toLowerCase()
+              .replace("?", "")}`}
+            key={index}
+          >
+            <h3>{section.title}</h3>
+            <p>{section.content}</p>
+            {section.addition && <p className="addition">{section.addition}</p>}
+            {section.attention && (
+              <p className="attention">{section.attention}</p>
+            )}
+          </div>
+        ))}
       </div>
       <div className="mobileV">
-      <Slider {...settings}>
-      {aboutWork.map((section, index) => (
-  <div className={`section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
-    <h2>{section.title}</h2>
-    <p>{section.content}</p>
-  </div>
-))}
-
-      </Slider>
+        <Slider {...settings}>
+          {aboutWork.map((section, index) => (
+            <div
+              className={`section-${section.title
+                .replace(/\s/g, "-")
+                .toLowerCase()
+                .replace("?", "")}`}
+              key={index}
+            >
+              <h3>{section.title}</h3>
+              <p>{section.content}</p>
+              {section.addition && (
+                <p className="addition">{section.addition}</p>
+              )}
+              {section.attention && (
+                <p className="attention">{section.attention}</p>
+              )}
+            </div>
+          ))}
+        </Slider>
       </div>
-   
     </div>
   );
 };
