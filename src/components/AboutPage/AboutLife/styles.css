@@ -8,7 +8,7 @@
   backdrop-filter: blur(5px);
   display: grid !important;
   grid-template-columns: 1fr;
- grid-template-rows: 10% 90%;
+ grid-template-rows: 10% 70% 20%;
  justify-items: end;
  gap: 20px;
   padding: 35px;
@@ -40,7 +40,8 @@
 
 @media (max-width: 600px) {
   .aboutLifewrapper .section{
-    height: 450px;
+    height: 400px;
+    padding: 25px;
   }
   .slick-prev,
   .slick-next {
