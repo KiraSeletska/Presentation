@@ -18,7 +18,7 @@ export const AboutWork = () => {
       <div className="respV">
    
       {aboutWork.map((section, index) => (
-  <div className={`section section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
+  <div className={`section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
     <h2>{section.title}</h2>
     <p>{section.content}</p>
   </div>
@@ -29,7 +29,7 @@ export const AboutWork = () => {
       <div className="mobileV">
       <Slider {...settings}>
       {aboutWork.map((section, index) => (
-  <div className={`section section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
+  <div className={`section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
     <h2>{section.title}</h2>
     <p>{section.content}</p>
   </div>
