@@ -3,6 +3,7 @@ import { aboutLife } from "../../../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from "react-router-dom";
 
 export const AboutLife = () => {
   const settings = {
@@ -15,27 +16,25 @@ export const AboutLife = () => {
 
   return (
     <div className="aboutLifewrapper">
-        <Slider {...settings}>
-          {aboutLife.map((section, index) => (
-            <div
-              className={`section section-${section.title
-                .replace(/\s/g, "-")
-                .toLowerCase()
-                .replace("?", "")}`}
-              key={index}
-            >
-              <h3>{section.title}</h3>
-              <p>{section.content}</p>
-              {section.addition && (
-                <p className="addition">{section.addition}</p>
-              )}
-              {section.attention && (
-                <p className="attention">{section.attention}</p>
-              )}
-            </div>
-          ))}
-        </Slider>
-  
+      <Slider {...settings}>
+        {aboutLife.map((section, index) => (
+          <div
+            className={`section section-${section.title
+              .replace(/\s/g, "-")
+              .toLowerCase()
+              .replace("?", "")}`}
+            key={index}
+          >
+            <h3>{section.title}</h3>
+            <p>{section.content}</p>
+            {section.title === "Photo" && (
+              <NavLink to={"/Photo"}>
+                Here are my photos, if you're interested
+              </NavLink>
+            )}
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

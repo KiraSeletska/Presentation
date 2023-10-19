@@ -102,8 +102,8 @@ export const aboutLife =[
   },
   {
     title: 'Photo',
-  content: "Well, everything is simple here... This is a window into the world of pleasant memories. I can probably also call a photo the most motivating picture in the world, because there you can find inspiration for everything. Here are my photos, if you're interested)"
-
+  content: "Well, everything is simple here... This is a window into the world of pleasant memories. I can probably also call a photo the most motivating picture in the world, because there you can find inspiration for everything.",
+  addition: "Here are my photos, if you're interested)"
   },
   {
     title: "Music",
@@ -116,3 +116,5 @@ export const aboutLife =[
   },
 
 ]
+
+
