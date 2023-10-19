@@ -17,28 +17,24 @@ export const AboutWork = () => {
     <div className="wrapper">
       <div className="respV">
    
-        {aboutWork.map((section, index) => (
-          <div className={`section section${index}`} key={index}>
-            <h2>{section.title}</h2>
-            <p>{section.content}</p>
+      {aboutWork.map((section, index) => (
+  <div className={`section section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
+    <h2>{section.title}</h2>
+    <p>{section.content}</p>
+  </div>
+))}
 
-            {section.addition && <p className="addition">{section.addition}</p>}
-            {section.attention && <p className="attention">{section.attention}</p>}
-          </div>
-        ))}
      
       </div>
       <div className="mobileV">
       <Slider {...settings}>
-        {aboutWork.map((section, index) => (
-          <div className={`section section${index}`} key={index}>
-            <h2>{section.title}</h2>
-            <p>{section.content}</p>
+      {aboutWork.map((section, index) => (
+  <div className={`section section-${section.title.replace(/\s/g, '-').toLowerCase().replace('?', '')}`} key={index}>
+    <h2>{section.title}</h2>
+    <p>{section.content}</p>
+  </div>
+))}
 
-            {section.addition && <p className="addition">{section.addition}</p>}
-            {section.attention && <p className="attention">{section.attention}</p>}
-          </div>
-        ))}
       </Slider>
       </div>
    
