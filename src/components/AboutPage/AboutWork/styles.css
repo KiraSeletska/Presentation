@@ -1,0 +1,74 @@
+h2 {
+  color: rgb(58, 58, 58);
+}
+.slick-arrow.slick-next::before,
+.slick-arrow.slick-prev::before {
+  color: rgba(199, 108, 244, 0.5);
+}
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: rgb(93, 10, 137, 0.7);
+
+}
+.wrapper .slick-slide .section {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  backdrop-filter: blur(5px);
+  height: 350px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section0::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(
+      rgba(135, 60, 255, 0.4),
+      rgba(135, 60, 255, 0) 80%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(120, 155, 255, 0.5) 25%,
+      rgba(255, 160, 65, 0.5) 75%
+    );
+  z-index: -2;
+}
+.section0::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: rgb(255, 255, 255, 0.5);
+  z-index: -1;
+}
+.section1{
+  background-color: rgba(199, 108, 244, 0.5);
+  color: white;
+}
+.section2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+}
+.addition{
+  text-align: center;
+}
+.attention{
+  text-align: center;
+font-weight: 700;
+}
+@media (max-width: 600px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .section {
+    height: 370px;
+  }
+}

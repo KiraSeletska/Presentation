@@ -70,14 +70,22 @@ export const ITexperienceData = {
   
   
 }
-/*
+export const aboutWork = [
   {
-    id: "short experience of a manager",
-    positions: [],
-    period: "",
-    directings: [],
-    mainTasks: "",
-    responsibilities: "",
-    otherResponsibilities: "",
+    title: 'Preface',
+    content:
+      'I worked in sales for more than 15 years. But due to recent events, I left my country. I was faced with the question: continue my career or start a new one, I chose the latter. In my previous career, I achieved the following accomplishments; Won the title of the most productive manager Brought in and managed the largest deal in the history of the company Was named the most successful department, with the highest profit margin Had the lowest staff turnover within my department.',
+  
+addition: 'But the time has come to make a new choice, and',
+attention: 'I chose IT',
+},
+  {
+    title: 'Why IT?',
+    content:
+      "I believe it is the present and the future, with constant development, and continuous problem-solving opportunities. It's extremely interesting to me. After completing the training and practice, I was convinced that I had made the right choice",
   },
-*/
+  {
+    title: 'Why FRONTEND DEVELOPMENT?',
+    content: "I like Javascript, and its breadth of use, I like working with interfaces and quickly seeing the result of my work",
+  },
+];
