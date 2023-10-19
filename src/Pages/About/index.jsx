@@ -1,6 +1,7 @@
 import styles from "./about.module.scss";
 import { AboutWork } from "../../components/AboutPage/AboutWork";
 import { AboutLife } from './../../components/AboutPage/AboutLife/index';
+
 export const About = () => {
   return (
     <div className={styles.wrapper}>
