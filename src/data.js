@@ -97,7 +97,7 @@ export const aboutLife =[
   },
   {
     title: 'Travelings',
-  content: "What can I say about them? Who doesn't love travel? To get new emotions, you don’t have to travel thousands of kilometers away (for example, I haven’t explored all the surroundings of my new house yet, although I’ve been living here for almost two years). New places, experiences, sometimes breathtaking. If you ask me how I like to relax, then my answer is here. On the bank of a mountain river, in an old small town, 3000 m above sea level, in the center of a metropolis, in a colorful forest, in a castle.... I have good news: this is an inexhaustible source of inspiration, and I every month (sometimes even more often) I go to some new places. This is the best vacation in the world."
+  content: "To get new emotions, you don’t have to travel thousands of kilometers away (for example, I haven’t explored all the surroundings of my new house yet, although I’ve been living here for almost two years). New places, experiences, sometimes breathtaking. If you ask me how I like to relax, then my answer is here. On the bank of a mountain river, in an old small town, 3000 m above sea level, in the center of a metropolis, in a colorful forest, in a castle.... I have good news: this is an inexhaustible source of inspiration, and I every month (sometimes even more often) I go to some new places. This is the best vacation in the world."
 
   },
   {
