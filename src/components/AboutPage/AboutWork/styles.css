@@ -82,7 +82,6 @@
 .wrapper .section-why-it {
   background-color: rgba(199, 108, 244, 0.5);
   color: white;
-
   padding: 35px;
   backdrop-filter: blur(5px);
   display: flex  !important;
@@ -132,7 +131,7 @@
   .wrapper .section-preface,
   .wrapper .section-why-it,
   .wrapper .section-why-frontend-development {
-    height: 400px;
+    height: 450px;
   }
 }
 
