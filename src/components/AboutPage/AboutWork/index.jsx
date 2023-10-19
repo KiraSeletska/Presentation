@@ -15,6 +15,20 @@ export const AboutWork = () => {
 
   return (
     <div className="wrapper">
+      <div className="respV">
+   
+        {aboutWork.map((section, index) => (
+          <div className={`section section${index}`} key={index}>
+            <h2>{section.title}</h2>
+            <p>{section.content}</p>
+
+            {section.addition && <p className="addition">{section.addition}</p>}
+            {section.attention && <p className="attention">{section.attention}</p>}
+          </div>
+        ))}
+     
+      </div>
+      <div className="mobileV">
       <Slider {...settings}>
         {aboutWork.map((section, index) => (
           <div className={`section section${index}`} key={index}>
@@ -26,6 +40,8 @@ export const AboutWork = () => {
           </div>
         ))}
       </Slider>
+      </div>
+   
     </div>
   );
 };
