@@ -116,7 +116,7 @@ h2 {
 }
 
 h2 {
-  color: rgb(58, 58, 58);
+  color: rgb(255, 9, 9);
 }
 
 .slick-arrow.slick-next::before,
@@ -128,7 +128,7 @@ h2 {
 .slick-next:hover::before {
   color: rgba(93, 10, 137, 0.7);
 }
-
+/*
 .wrapper .section {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   padding: 35px;
@@ -139,13 +139,20 @@ h2 {
   z-index: 1;
   color: rgb(255, 0, 0);
 }
-
-.wrapper .section.section-preface {
+*/
+.wrapper .section-preface {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
   grid-column: 1;
   grid-row: 1 / 3;
 }
 
-.wrapper .section.section-preface::before {
+.wrapper .section-preface::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -163,7 +170,7 @@ h2 {
   z-index: -2;
 }
 
-.wrapper .section.section-preface::after {
+.wrapper .section-preface::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -174,14 +181,28 @@ h2 {
   z-index: -1;
 }
 
-.wrapper .section.section-why-it {
+.wrapper .section-why-it {
   background-color: rgba(199, 108, 244, 0.5);
   color: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
   grid-column: 2;
   grid-row: 1;
 }
 
-.wrapper .section.section-why-frontend-development {
+.wrapper .section-why-frontend-development {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 1;
   background-color: rgba(255, 255, 255, 0.5);
   color: rgb(0, 0, 0);
   grid-column: 2;
@@ -220,22 +241,11 @@ h2 {
   .slick-next {
     display: none !important;
   }
-
-  .wrapper .section {
+  .wrapper .section-preface,
+  .wrapper .section-why-it,
+  .wrapper .section-why-frontend-development {
     height: 370px;
   }
-  .wrapper .section.section-why-it {
-    background-color: rgba(199, 108, 244, 0.5);
-    color: white;
-    grid-column: 2;
-    grid-row: 1;
-  }
-  
-  .wrapper .section.section-why-frontend-development {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgb(0, 0, 0);
-    grid-column: 2;
-    grid-row: 2;
-  }
+ 
 }
 
