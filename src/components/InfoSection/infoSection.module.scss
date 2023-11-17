@@ -66,6 +66,17 @@
         right: -10px;
       
     }
+    &::after{
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      bottom: -10px;
+      right:  -170px;
+  background-color: rgb(149, 194, 225);
+  z-index: -2;
+
+    }
    }
   }
 }}
