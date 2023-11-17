@@ -1,9 +1,6 @@
 .infoWrapper {
   width: 100%;
   z-index: 1;
-  & h1 {
-
-  }
   & .icons {
     display: flex;
     justify-content: space-between;
@@ -46,6 +43,7 @@
 @media (max-width: 600px) {
   .infoWrapper {
     width: 100%;
+ 
     & h1 {
       margin-bottom: 15px;
     }
@@ -54,6 +52,7 @@
       justify-content: space-between;
       align-items: center;
       margin: 20px 0;
+    
       & img {
         width: 15px;
         height: 15px;
