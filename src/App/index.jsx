@@ -13,8 +13,6 @@ function App() {
         <Outlet />{" "}
         <UpButton />
       </div>
-   
-      <Footer />
     </div>
   );
 }

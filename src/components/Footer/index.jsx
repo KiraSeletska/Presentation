@@ -20,10 +20,10 @@ export const Footer = () => {
               <a href="mailto:seletskaya.kira@gmail.com"><img src={emailLogo} alt="Email"/></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/kira-seletska/"><img src={linkedinLogo} alt="Linkedin" /></a>
+              <a href="https://www.linkedin.com/in/kira-seletska/" target="_blank"><img src={linkedinLogo} alt="Linkedin" /></a>
             </li>
             <li>
-              <a href="https://github.com/KiraSeletska"><img src={githubLogo} alt="GitHub" /> </a>
+              <a href="https://github.com/KiraSeletska" target="_blank"><img src={githubLogo} alt="GitHub" /> </a>
             </li>
           </ul>
         </div>

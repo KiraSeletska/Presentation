@@ -1,5 +1,6 @@
 .infoWrapper {
   width: 100%;
+  z-index: 1;
   & h1 {
 
   }
@@ -8,9 +9,21 @@
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
+    position: relative;
     & img {
       width: 25px;
       height: 25px;
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -100px;
+      right: -100px;
+      bottom: -10px;
+      background-color: rgba(236, 235, 240, 0.7);
+      z-index: -1;
+    
     }
   }
   & .basicInfoWrapper {
@@ -18,12 +31,15 @@
     grid-template-columns: 1fr 3fr;
     gap: 10px;
     & .typeInfo {
-      color: #969696;
+      color: #353535;
       width: 80px;
       font-size: 15px;
+      font-weight: 500;
+
     }
     & .info {
-      color: #252525;
+      color: #06070c;
+      font-weight: 700;
     }
   }
 }
