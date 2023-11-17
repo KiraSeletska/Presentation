@@ -8,9 +8,9 @@
     font-size: 35px;
     border: none;
     background-color: transparent;
-    color: rgb(0, 0, 0, 0.3);
+    color: rgb(152, 134, 132, 0.5);
     &:hover {
-      color: rgb(106, 49, 137);
+      color: rgb(25, 69, 96);
     }
   }
 }
@@ -23,9 +23,6 @@
     right: 40px;
     & button {
       font-size: 25px;
-      &:hover {
-        color: rgb(106, 49, 137);
-      }
     }
   }
 }

@@ -20,12 +20,12 @@ export const Contacts = () => {
         </p>
         <p>
           {" "}
-          <a href="https://www.linkedin.com/in/kira-seletska/">
+          <a href="https://www.linkedin.com/in/kira-seletska/" target="_blank">
             inkedin.com/in/kira-seletska
           </a>
         </p>
         <p>
-          <a href="https://github.com/KiraSeletska">github.com/KiraSeletska</a>{" "}
+          <a href="https://github.com/KiraSeletska" target="_blank">github.com/KiraSeletska</a>{" "}
         </p>
       </div>
     </div>

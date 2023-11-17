@@ -21,13 +21,26 @@
         top: -25px;
         left: -25px;
         bottom: 50px;
-        right: -25px;
-        background: 	
+        right:-25px;
+       /* background: 	
         linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
-        linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
-    
-       // transform: translate(0, -20px);
+        linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);*/
+       /* background: 	
+        linear-gradient(rgba(152, 134, 132, 0.4), rgba(60, 255, 248, 0) 80%),
+        linear-gradient(-45deg, rgba(152, 134, 132, 0.9) 25%, rgba(152, 134, 132, 0.9) 75%);*/
+    background-color:#194560;
         z-index: -1;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: -60px;
+        bottom: -300px;
+        right:  -60px;
+    background-color: rgb(149, 194, 225);
+    z-index: -2;
+
       }
     }
   }

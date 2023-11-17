@@ -3,9 +3,11 @@
   margin: auto;
 
   & .outlet {
-    padding: 80px 30px 100px 30px;
+  // padding: 80px 30px 100px 30px;
     max-width: 1200px;
     margin: auto;
+  height: 100vh;
+
   }
 }
 @media (max-width: 600px) {

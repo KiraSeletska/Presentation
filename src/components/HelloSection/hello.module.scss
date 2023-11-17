@@ -4,7 +4,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(199, 108, 244, 0.5);
+ // background-color: rgba(199, 108, 244, 0.5);
+ background-color: rgba(255, 255, 255, 0.8);
+//border: 3px solid rgb(31, 15, 172);
   backdrop-filter: blur(5px);
   color: rgb(58, 58, 58);
   margin-top: 30px;
@@ -15,23 +17,29 @@
     flex-direction: column;
     align-items: flex-end;
     width: 80%;
+
     & .hello {
       width: 100%;
     }
     & .name {
       width: 100%;
       font-size: 40px;
-      color: rgb(102, 26, 90);
+     // color: rgb(102, 26, 90);
+     color:#06070c;
+
     }
     & .smileText {
       width: 70%;
       font-family: "Edu SA Beginner", cursive;
-      color: white;
+      //color: white;
+      color: #194560;
+
       padding: 15px;
       display: grid;
       grid-template-columns: 3fr 1fr;
       align-items: center;
       gap: 20px;
+    
     }
   }
 }
