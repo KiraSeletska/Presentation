@@ -193,24 +193,27 @@ p {
     font-size: 14px;
   }
  
-  /*
+  
   .square:nth-child(1) {
     width: 100px;
     height: 100px;
-    border: 10px solid rgb(195, 206, 247, 0.5);
+    border: 10px solid rgba(24, 70, 96, 0.3);
+
   }
   
   .square:nth-child(2) {
     width: 200px;
     height: 200px;
-    border: 10px solid rgb(241, 188, 213, 0.5);
+    border: 10px solid rgba(149, 194, 225, 0.3);
+
   }
   
   .square:nth-child(3) {
     width: 150px;
     height: 150px;
-    border: 10px solid rgb(252, 212, 164, 0.5);
-  }*/
+  border: 10px solid rgba(152, 134, 132, 0.3);
+
+  }
   @keyframes moveDiagonal1 {
     0% {
       top: 0;

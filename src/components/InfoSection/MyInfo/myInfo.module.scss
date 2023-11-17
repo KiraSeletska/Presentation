@@ -58,6 +58,10 @@
         width: 15px;
         height: 15px;
       }
+      &::before{
+        left: -25px;
+        right: -25px;
+      }
     }
     & .basicInfoWrapper {
       display: flex;

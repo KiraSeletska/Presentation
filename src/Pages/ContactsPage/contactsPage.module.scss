@@ -20,15 +20,30 @@
     & a {
       font-size: 50px;
       color: rgb(152, 134, 132);
-      &:hover{
-      color: rgb(25, 69, 96);
-
+      &:hover {
+        color: rgb(25, 69, 96);
       }
     }
 
     & .info {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+  height: auto;
+
+    & .container {
+      & a {
+        font-size: 30px;
+      }
+    }
+    & .info {
+      justify-content: center;
       gap: 50px;
     }
   }
