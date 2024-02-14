@@ -8,7 +8,8 @@ import { faEye } from "@fortawesome/free-regular-svg-icons";
 export const Experience = () => {
   return (
     <div className={styles.wrapper}>
-      <h2>Work Experience</h2>
+      <h2>Work Experience<span className={styles.progress}>in progress</span></h2>
+     
       <ITExperience />
       {experienceData &&
         experienceData.map((el) => (

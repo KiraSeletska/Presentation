@@ -2,11 +2,11 @@ import styles from "./projects.module.scss";
 import { projectsData } from "../../data";
 import pa from "../../images/projects/store/1.png";
 export const Projects = () => {
-  console.log(projectsData.map((el) => el.pic.map((el) => el)));
 
   return (
     <div className={styles.wrapper}>
-      <h2>In progress</h2>
+      <h2>Projects<span className={styles.progress}>in progress</span></h2>
+
       <div className={styles.sectionWrapper}>
         {projectsData &&
           projectsData.map((el, i) => (
