@@ -48,8 +48,9 @@ export const Header = () => {
             <li className={styles.li}>EXPERIENCE</li>
             <li className={styles.mobileLi}><FontAwesomeIcon icon={faBriefcase} /></li>
           </NavLink>
-
+          <NavLink to={"/Projects"} activeclassname="active">
           <li className={styles.li}>PROJECTS</li>
+          </NavLink>
           <li className={styles.mobileLi}><FontAwesomeIcon icon={faDiagramProject} /></li>
           <NavLink to={"/ContactsPage"} activeclassname="active">
           <li className={styles.li}>CONTACTS</li>
