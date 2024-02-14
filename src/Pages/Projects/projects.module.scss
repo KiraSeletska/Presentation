@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 55px;
+  
+  }
+  @media (max-width: 1000px) {
+    .wrapper {
+     flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .wrapper {
+     height: 70vh;
+    }
+  }

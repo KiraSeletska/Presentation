@@ -8,6 +8,7 @@ import { Home } from "./Pages/Home";
 import { Experience } from "./Pages/Experience";
 import { PhotoGallery } from "./Pages/PhotoGallery";
 import { ContactsPage } from "./Pages/ContactsPage";
+import { Projects } from "./Pages/Projects";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/Experience",
         element: <Experience />,
+      },
+      {
+        path: "/Projects",
+        element: <Projects/>, 
       },
       {
         path: "/Photo",
