@@ -34,24 +34,25 @@ export const Header = () => {
       <nav className={styles.wrapper}>
         <ul>
           <NavLink to={"/Home"} activeclassname="active">
-         
             <li className={styles.li}>HOME</li>
             <li className={styles.mobileLi}><FontAwesomeIcon icon={faHouse} /></li>
           </NavLink>
+
           <NavLink to={"/About"} activeclassname="active">
-       
             <li className={styles.li}>ABOUT</li>
             <li className={styles.mobileLi}><FontAwesomeIcon icon={faAddressCard} /></li>
           </NavLink>
+
           <NavLink to={"/Experience"} activeclassname="active">
-       
             <li className={styles.li}>EXPERIENCE</li>
             <li className={styles.mobileLi}><FontAwesomeIcon icon={faBriefcase} /></li>
           </NavLink>
+
           <NavLink to={"/Projects"} activeclassname="active">
           <li className={styles.li}>PROJECTS</li>
-          </NavLink>
           <li className={styles.mobileLi}><FontAwesomeIcon icon={faDiagramProject} /></li>
+          </NavLink>
+
           <NavLink to={"/ContactsPage"} activeclassname="active">
           <li className={styles.li}>CONTACTS</li>
           <li className={styles.mobileLi}><FontAwesomeIcon icon={faEnvelope} /></li>

@@ -4,4 +4,16 @@
   & h2 {
     margin: 30px 0 20px;
   }
+  & .progress{
+    font-size: 10px;
+    color: rgb(182, 181, 181);
+ 
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    padding-bottom: 300px;
+
+ 
+  }
 }

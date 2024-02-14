@@ -39,8 +39,11 @@
 
 @media (max-width: 600px) {
   .menuContainer {
-    bottom: 20px;
-    width: 70%;
+    left: 0;
+    bottom: 260px;
+    right: auto;
+    top: auto;
+  width: 70%;
     & .wrapper {
       & ul {
         display: flex;
