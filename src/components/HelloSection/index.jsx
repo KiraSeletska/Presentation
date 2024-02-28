@@ -18,7 +18,7 @@ export const HelloSection = () => {
           If work does not bring you joy, then you will remain unhappy and poor.
           I am a happy person 
           <div className={styles.smile}>
-            <img src={smile2} alt="" srcset="" />
+            <img src={smile} alt="" srcset="" />
           </div>
          
         </div>
