@@ -4,6 +4,7 @@ import { AdditionalInformation } from "../../components/AdditionalInformation";
 import { ITExperience } from "../../components/ITExperience";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
+import { Resume } from "../../components/Resume";
 
 export const Experience = () => {
   return (
@@ -39,8 +40,14 @@ export const Experience = () => {
             </section>
           </div>
         ))}
-     <p className={styles.linkToCV}><FontAwesomeIcon icon={faEye} /> <a href="">More information about previous... </a></p>
+    {/* <p className={styles.linkToCV}><FontAwesomeIcon icon={faEye} /> <a href="">More information about previous... </a></p>*/}
+    <Resume/>
       <AdditionalInformation />
+      <div>
+
+
+      </div>
+   
     </div>
   );
 };
