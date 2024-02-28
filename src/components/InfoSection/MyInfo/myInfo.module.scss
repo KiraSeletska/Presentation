@@ -40,6 +40,20 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .infoWrapper {
+    & .icons {
+      &::before{
+        content: '';
+        position: absolute;
+        left: -50px;
+        right: -50px;
+      }
+    }
+  }
+}
+
 @media (max-width: 600px) {
   .infoWrapper {
     width: 100%;

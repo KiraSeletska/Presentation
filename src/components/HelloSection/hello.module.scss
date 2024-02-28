@@ -4,9 +4,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
- // background-color: rgba(199, 108, 244, 0.5);
- background-color: rgba(255, 255, 255, 0.8);
-//border: 3px solid rgb(31, 15, 172);
+  background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(5px);
   color: rgb(58, 58, 58);
   margin-top: 30px;
@@ -24,29 +22,37 @@
     & .name {
       width: 100%;
       font-size: 40px;
-     // color: rgb(102, 26, 90);
-     color:#06070c;
-
+      color: #06070c;
     }
     & .smileText {
       width: 70%;
       font-family: "Edu SA Beginner", cursive;
-      //color: white;
       color: #194560;
-
       padding: 15px;
       display: grid;
       grid-template-columns: 3fr 1fr;
       align-items: center;
       gap: 20px;
-    
+      & .smile {
+        & img {
+          width: 50px;
+        }
+      }
     }
   }
 }
+@media (max-width: 1024px) {
+  .wrapper {
+    transform: translate(-30px,12px);
+    padding: 25px;
+  }
+}
+
 @media (max-width: 600px) {
   .wrapper {
     padding: 15px 10px 30px;
-  margin-top: 10px;
+    margin-top: 10px;
+    transform: translate(0,0);
 
     & .text {
       & .hello {

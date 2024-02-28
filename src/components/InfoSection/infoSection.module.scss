@@ -11,7 +11,7 @@
     & .photoWrapper {
       position: relative;
       z-index: 1;
-     margin-bottom: 30px;
+      margin-bottom: 30px;
       & img {
         width: 200px;
       }
@@ -21,26 +21,39 @@
         top: -25px;
         left: -25px;
         bottom: 50px;
-        right:-25px;
-       /* background: 	
-        linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
-        linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);*/
-       /* background: 	
-        linear-gradient(rgba(152, 134, 132, 0.4), rgba(60, 255, 248, 0) 80%),
-        linear-gradient(-45deg, rgba(152, 134, 132, 0.9) 25%, rgba(152, 134, 132, 0.9) 75%);*/
-    background-color:#194560;
+        right: -25px;
+        background-color: #194560;
         z-index: -1;
       }
-      &::after{
+      &::after {
         content: "";
         position: absolute;
         top: 20px;
         left: -60px;
         bottom: -300px;
-        right:  -60px;
-    background-color: rgb(149, 194, 225);
-    z-index: -2;
+        right: -60px;
+        background-color: rgb(149, 194, 225);
+        z-index: -2;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    margin-left: 30px;
+    & .wrapper {
+      & .photoWrapper {
+        &::before {
+          top: -20px;
+          left: -20px;
 
+          right: -20px;
+        }
+        &::after {
+          left: -50px;
+          right: -50px;
+          background-color: rgb(149, 194, 225);
+        }
       }
     }
   }
@@ -48,35 +61,37 @@
 @media (max-width: 600px) {
   .container {
     width: 100%;
-  & .wrapper {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 35px;
-   padding: 0;
-   & .photoWrapper {
-    margin: 0;
-    width: 150px;
-    & img {
-      width: 150px;
+    margin-left: 0;
+
+    & .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+      padding: 0;
+      & .photoWrapper {
+        margin: 0;
+        width: 150px;
+        & img {
+          width: 150px;
+        }
+        &::before {
+          top: -10px;
+          left: -10px;
+          bottom: 40px;
+          right: -10px;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: -20px;
+          left: -20px;
+          bottom: -10px;
+          right: -170px;
+          background-color: rgb(149, 194, 225);
+          z-index: -2;
+          display: none;
+        }
+      }
     }
-      &::before {
-        top: -10px;
-        left: -10px;
-        bottom: 40px;
-        right: -10px;
-      
-    }
-    &::after{
-      content: "";
-      position: absolute;
-      top: -20px;
-      left: -20px;
-      bottom: -10px;
-      right:  -170px;
-  background-color: rgb(149, 194, 225);
-  z-index: -2;
-display: none;
-    }
-   }
   }
-}}
+}

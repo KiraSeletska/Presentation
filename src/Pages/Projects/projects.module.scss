@@ -59,15 +59,17 @@ justify-content: space-evenly;
     }
   }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1024px) {
   .wrapper {
-    flex-direction: column;
-    
-  }
+  padding: 50px 30px 170px;
+  flex-direction: column;
+
+}
 }
 @media (max-width: 600px) {
   .wrapper {
-    padding-bottom: 300px;
+    padding: 0 0 100px;
 
 
     & .sectionWrapper {
