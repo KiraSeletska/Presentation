@@ -19,12 +19,12 @@ export const Resume = () => {
     <div className={styles.wrapper}>
       <div>
         <button className={styles.download} onClick={handleDownload}>
-          <span> Download resume PDF</span>
+          <span> Download full resume PDF</span>
         </button>
       </div>
       <div>
         <button className={styles.view} onClick={openResumeInNewWindow}>
-          <span>View resume online</span>
+          <span>View full resume online</span>
         </button>
       </div>
     </div>
