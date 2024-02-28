@@ -72,7 +72,7 @@ export const ITexperienceData = {
 };
 export const aboutWork = [
   {
-    title: "Preface",
+    title: "Summary",
     content:
       "I worked in sales for more than 15 years. But due to recent events, I left my country. I was faced with the question: continue my career or start a new one, I chose the latter. In my previous career, I achieved the following accomplishments; Won the title of the most productive manager Brought in and managed the largest deal in the history of the company Was named the most successful department, with the highest profit margin Had the lowest staff turnover within my department.",
 
@@ -168,3 +168,6 @@ export const projectsData = [
     video: "",
   },
 ];
+
+//фвторство (смайлик)
+//<a href="https://www.flaticon.com/ru/free-icons/" title="улыбка иконки">Улыбка иконки от RIkas Dzihab - Flaticon</a>
