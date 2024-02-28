@@ -7,7 +7,7 @@ export const experienceData = [
       "Call-center Supervisor",
      // "Commercial director",
     ],
-    period: "from 2012 to 2022",
+    period: "from 2013 to 2022",
     directings: "Jewelry/Real Estate/Construction ",
     direction: "B2B, B2C",
     location: "UA: Kyiv",
@@ -34,8 +34,10 @@ export const experienceData = [
 ];
 
 export const totalExperienceData = {
-  totalData:
-    "Total experience in trade is more than 15 years. Of these, 7 are as a manager. Directions: B2B, B2C.",
+  totalDev: 
+  "Successfully completed training as a web developer at Starta Institute by Tel-Ran. I secured my existing knowledge and acquired new ones by InternShip as a Frontend Developer on an online game project and portfolio from August to December 2023.",
+  totalSales:
+    "Total experience in sales is more than 15 years. Of these, 7 are as a manager. Directions: B2B, B2C.",
   typesOfGoods:
     "Types of goods: commercial real estate management, purchase and sale of primary and secondary real estate, repair and construction services, FMCG.",
   experianceAndSkills: [
@@ -49,6 +51,19 @@ export const totalExperienceData = {
     "work with contracts of different durations",
     "writing sales books",
     "subordinate to up to 50 managers",
+  ],
+  technicalStack:[
+    "JavaScript, TypeScript",
+    "React",
+    "MobX, Redux, Redux-toolkit",
+    "OOP",
+    "GIT, GitHub",
+    "HTML5, CSS/SASS",
+  ],
+  
+informationPhrase:  "And ready for new chalanges!",
+  basicTechnikalStack: [
+["Java, QA, Linux, RTK-Query, SQL, NoSQL and MongoDB,  Algorithms, Project management"]
   ],
   personaleQualities:
     "I would describe myself as a purposeful, proactive, adaptable, and responsible person who enjoys learning. I calmly deal with difficult situations and make decisions quickly. I possess an analytic mind, that thrives in long-term cooperation situations with open-minded individuals.",
