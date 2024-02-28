@@ -3,18 +3,22 @@
   margin: auto;
   display: flex;
   align-items: center;
-  height: 100vh;
+ height: 100vh;
   padding-bottom: 55px;
 
 }
-@media (max-width: 1000px) {
+
+
+@media (max-width: 1024px) {
   .wrapper {
-   flex-direction: column;
+   height: 80vh;
   }
 }
+
+
 @media (max-width: 600px) {
   .wrapper {
    height: 90vh;
-
+   flex-direction: column;
   }
 }

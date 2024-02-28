@@ -49,17 +49,19 @@
     }
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .wrapper {
-    & .experience {
-      width: 100%;
-    }
+  padding: 50px 30px 170px;
+  & .experience {
+    width: 100%;
   }
 }
+}
+
 @media (max-width: 600px) {
   .wrapper {
     gap: 15px;
-    padding-bottom: 300px;
+    padding: 0 0 100px;
     & h2 {
     }
     & .experience {
