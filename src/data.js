@@ -2,11 +2,12 @@ export const experienceData = [
   {
     id: "shortexperience_head",
     positions: [
-      "Call center supervisor",
-      "Head of sales/department",
-      "Commercial director",
+      "Head of Sales Department",
+     // "Head of sales",
+      "Call-center Supervisor",
+     // "Commercial director",
     ],
-    period: "from 2012 to 2022 (7 years with a break)",
+    period: "from 2012 to 2022",
     directings: "Jewelry/Real Estate/Construction ",
     direction: "B2B, B2C",
     location: "UA: Kyiv",
@@ -20,7 +21,7 @@ export const experienceData = [
   {
     id: "shortexperience_manager",
     positions: ["Sales manager"],
-    period: "from 2009 to 2013 (4 years)",
+    period: "from 2009 to 2013",
     directings: "Food and Beverage/Real Estate",
     direction: "B2B, B2C",
     location: "UA: Romny / Konotop / Kyiv",
@@ -55,8 +56,8 @@ export const totalExperienceData = {
 
 export const ITexperienceData = {
   id: "ITexperience",
-  positions: "Junior frontend developer",
-  period: "from august 2023 until now",
+  positions: "Frontend Developer",
+  period: "from augest 2023 to december 2023",
   directings: [
     "On-line game (in a team)",
     "Website for UI/UX designer (in a team)",
