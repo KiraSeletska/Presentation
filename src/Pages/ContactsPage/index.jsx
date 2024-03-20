@@ -13,7 +13,7 @@ export const ContactsPage = () => {
       <div className={styles.info}>
         <p>
           {" "}
-          <a href="tel:+499999999999">
+          <a href="tel:+4916091429749">
             {" "}
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
@@ -27,12 +27,12 @@ export const ContactsPage = () => {
         </p>
         <p>
           {" "}
-          <a href="https://www.linkedin.com/in/kira-seletska/" target="_blank">
+          <a href="https://www.linkedin.com/in/kira-seletska/" target="_blank" rel="noreferrer" >
           <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </p>
         <p>
-          <a href="https://github.com/KiraSeletska" target="_blank">
+          <a href="https://github.com/KiraSeletska" target="_blank" rel="noreferrer" >
             {" "}
             <FontAwesomeIcon icon={faGithub} />
           </a>{" "}

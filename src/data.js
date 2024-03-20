@@ -20,9 +20,9 @@ export const experienceData = [
   },
   {
     id: "shortexperience_manager",
-    positions: ["Sales manager"],
+    positions: ["Sales Manager"],
     period: "from 2009 to 2013",
-    directings: "Food and Beverage/Real Estate",
+    directings: "Retail/Real Estate/Wholesale trade/VIP clients",
     direction: "B2B, B2C",
     location: "UA: Romny / Konotop / Kyiv",
     mainTasks:
@@ -77,10 +77,12 @@ export const ITexperienceData = {
     "On-line game (in a team)",
     "Website for UI/UX designer (in a team)",
   ],
-  mainTaskWebsite: " Website. Create a website using the figma layout.",
+  mainTask: "Transfer a board game online, create a website for a web designer. Our work was carried out in a team of three frontend developers under the guidance of a frontend architect. Tasks were assigned to the team or to each employee separately. Basic communication via GitHub.",
+  mainTaskWebsite: "Create a website using the figma layout. Strict adherence to the layout",
   responsibilitiesWebsite:
     "The user should be able to download/change texts and pictures. ",
-  mainTaskGame: " Transfer a board game to a web application.",
+  mainTaskGame: "Transfer a board game to a web application.",
+  descrGame: "The game for two or three and more players. Has five decks and additional game cards. The program was written in VScode, library React, language TypeScript, state manager MobX, styles SASS, with using OOP. The game is saved and restored by ID in local storage.",
   responsibilitiesGame:
     "Write down the logic of the game, create a design based on the materials provided, and save it to local storage.",
   skillsUsed:
@@ -166,7 +168,8 @@ export const projectsData = [
     addition: "",
     pic: ["images/projects/game/1.png",
    "images/projects/game/2.png",
-  "images/projects/game/3.png"],
+  "images/projects/game/3.png",
+  "images/projects/game/4.png"],
   
     video: "video/SpaceGame.mp4",
   },

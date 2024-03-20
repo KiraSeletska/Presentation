@@ -9,19 +9,19 @@
   align-items: center;
   gap: 15px;
   color: white;
-  & .period{
+  & .period {
     font-size: 15px;
-   // padding-top: -80px;
   }
-  & .directing {
+  & .directings {
     font-weight: 800;
-    align-self: flex-start;
-    margin-bottom: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
   & .tasksContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
   }
 
   & .skills {
