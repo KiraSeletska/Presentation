@@ -1,9 +1,6 @@
 import styles from "./hello.module.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFaceSmile } from "@fortawesome/free-regular-svg-icons";
-import { Smiley } from "../Smiley";
 import smile from "../../images/animation/free-icon-smile-12428685.png"
-import smile2 from "../../images/animation/smile.gif"
+
 
 
 export const HelloSection = () => {

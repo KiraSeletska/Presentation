@@ -1,6 +1,6 @@
 import styles from "./projects.module.scss";
 import { projectsData } from "../../data";
-import pa from "../../images/projects/store/1.png";
+
 export const Projects = () => {
 
   return (

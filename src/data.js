@@ -168,7 +168,7 @@ export const projectsData = [
    "images/projects/game/2.png",
   "images/projects/game/3.png"],
   
-    video: "",
+    video: "video/SpaceGame.mp4",
   },
   {
     title: "Portfolio website for UI/UX designer",
@@ -181,7 +181,7 @@ export const projectsData = [
     pic: ["images/projects/portfolio/1.png",
     "images/projects/portfolio/2.png"],
   
-    video: "",
+    video: "video/Webportfolio.mp4",
   },
 ];
 

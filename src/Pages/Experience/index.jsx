@@ -2,8 +2,6 @@ import styles from "./experience.module.scss";
 import { experienceData } from "../../data";
 import { AdditionalInformation } from "../../components/AdditionalInformation";
 import { ITExperience } from "../../components/ITExperience";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { Resume } from "../../components/Resume";
 
 export const Experience = () => {

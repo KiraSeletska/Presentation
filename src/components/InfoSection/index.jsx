@@ -7,7 +7,7 @@ export const InfoSection = () => {
     <section className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.photoWrapper}>
-          <img src={photo} alt="photo" />
+          <img src={photo} alt="Author's" />
         </div>
         <MyInfo />
       </div>
