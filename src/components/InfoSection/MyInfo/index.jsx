@@ -19,7 +19,7 @@ export const MyInfo = () => {
         </div>
       <div className={styles.basicInfoWrapper}>
         <p className={styles.typeInfo}> Residence:</p>{" "}
-        <p className={styles.info}>Germany, Traunstein (Bayern)</p>
+        <p className={styles.info}>Germany, Traunstein (Bavaria)</p>
         <p className={styles.typeInfo}>Citizenship:</p> <p className={styles.info}>Ukrainian</p>
       </div>
     </div>
