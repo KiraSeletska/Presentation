@@ -5,6 +5,8 @@ import reactImg from "../../../images/icons_coding/react-2.svg";
 import reduxImg from "../../../images/icons_coding/redux.svg";
 import sassImg from "../../../images/icons_coding/sass-1.svg";
 import mobXImg from "../../../images/icons_coding/mobx.svg";
+import angular from "../../../images/icons_coding/angular.svg";
+
 export const MyInfo = () => {
   return (
     <div className={styles.infoWrapper}>
@@ -13,9 +15,12 @@ export const MyInfo = () => {
           <img src={jsImg} alt="Javascript" />
           <img src={tsImg} alt="Typescript" />
           <img src={reactImg} alt="React" />
+          <img src={angular} alt="Angular" />
           <img src={reduxImg} alt="Redux" />
           <img src={mobXImg} alt="MobX" />
           <img src={sassImg} alt="Sass" />
+
+
         </div>
       <div className={styles.basicInfoWrapper}>
         <p className={styles.typeInfo}> Residence:</p>{" "}
