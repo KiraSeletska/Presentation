@@ -54,7 +54,7 @@ export const totalExperienceData = {
   ],
   technicalStack:[
     "JavaScript, TypeScript",
-    "React",
+    "React, Angular",
     "MobX, Redux, Redux-toolkit",
     "OOP",
     "GIT, GitHub",
